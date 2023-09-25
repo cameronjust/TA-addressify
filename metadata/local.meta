@@ -1,0 +1,71 @@
+[spur/myweblogs]
+owner = admin
+version = 8.0.5
+modtime = 1600150250.440979000
+
+[hubtown/spur]
+owner = admin
+version = 8.0.5
+modtime = 1601256158.168515000
+
+[app/install]
+version = 8.2.6
+modtime = 1653966673.151656000
+
+[app/install/install_source_checksum]
+version = 8.0.0
+modtime = 1601426109.146316000
+
+[transforms/spur_tester]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 8.0.5
+modtime = 1601447932.531737000
+
+[collections/spur_cache]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.0.5
+modtime = 1602032658.604628000
+
+[spur/spur_config]
+owner = admin
+version = 8.2.6
+modtime = 1653866106.260381000
+
+[passwords/credential%3ATA-spur%3Aspur_api_key%3A]
+owner = admin
+version = 8.2.6
+modtime = 1653866106.243947000
+
+[views/health]
+owner = admin
+version = 8.2.6
+modtime = 1653968947.675373000
+
+[nav/default]
+version = 8.2.6
+modtime = 1653868034.396560000
+
+[addressify/addressify_config]
+version = 8.2.6
+modtime = 1653966673.132468000
+
+[app/ui]
+version = 8.2.6
+modtime = 1653887535.301965000
+
+[app/launcher]
+version = 8.2.6
+modtime = 1653887535.306451000
+
+[app/package/check_for_updates]
+version = 8.2.6
+modtime = 1653887535.308468000
+
+[passwords/credential%3ATA-addressify%3Aaddressify_api_key%3A]
+owner = admin
+version = 8.2.6
+modtime = 1653966673.115533000
